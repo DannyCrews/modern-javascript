@@ -34,13 +34,14 @@ nav {
 
         &.selected {
             .top-radius(5px);
-            
-            background: @color-accent;
+            .inner-top-highlight(@header-background);
+
+            background: @header-border;
             color: #fff;
             cursor: default;
 
             &:hover {
-                background: @color-accent;
+                background: @header-border;
             }
         }
 
