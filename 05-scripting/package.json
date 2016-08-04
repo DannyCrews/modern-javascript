@@ -1,0 +1,19 @@
+{
+  "name": "05-scripting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js",
+    "stop": "echo \"STOPPING\"",
+    "restart": "echo \"RESTARTING\"",
+    "greeting": "echo \"Hello, World!\"",
+    "lint": "jshint ./server.js --show-non-errors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.9.2"
+  }
+}
