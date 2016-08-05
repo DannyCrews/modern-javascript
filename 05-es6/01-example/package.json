@@ -1,0 +1,21 @@
+{
+  "name": "example-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scripts": "babel src-scripts --source-maps-inline --out-dir public/scripts",
+    "scripts:watch": "babel src-scripts --watch --source-map-inline --out-dir public/scripts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}

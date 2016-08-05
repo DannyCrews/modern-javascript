@@ -1,0 +1,21 @@
+{
+  "name": "example-01",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "dannycrews <dancrews@me.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/DannyCrews/modern-javascript",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
