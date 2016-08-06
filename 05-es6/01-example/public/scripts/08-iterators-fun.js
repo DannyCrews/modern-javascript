@@ -475,3 +475,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
     }
 })();
+
+(function (item) {
+    return item < 5;
+});
